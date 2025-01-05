@@ -1,11 +1,19 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Página do Produto Essência Eterna">
     <title>Essência Eterna</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Estilo -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -57,6 +65,22 @@
             background: #f1f1f1;
             margin-top: 20px;
             color: #888;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+                max-width: 100%;
+                box-shadow: none;
+                border-radius: 0;
+            }
+            header {
+                padding: 15px 0;
+            }
+            .btn {
+                padding: 8px 16px;
+            }
         }
     </style>
 </head>
