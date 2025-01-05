@@ -3,41 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apresentação do Produto</title>
+    <title>Produto Premium - Apresentação Completa</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f9f9f9;
+            color: #333;
         }
         header {
             background-color: #4CAF50;
             color: white;
-            text-align: center;
             padding: 20px 0;
+            text-align: center;
         }
         .container {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
-            max-width: 900px;
-            margin: 20px auto;
-            background-color: white;
-            border-radius: 8px;
+            background: white;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        .product-image {
-            width: 100%;
-            height: auto;
             border-radius: 8px;
         }
-        h1 {
-            color: #333;
+        .product-video {
             text-align: center;
+            margin: 20px 0;
         }
-        p {
+        .product-images {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .product-images img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product-description {
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .reviews {
+            margin-top: 30px;
+        }
+        .review-item {
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+        }
+        .review-item:last-child {
+            border-bottom: none;
+        }
+        .review-author {
+            font-weight: bold;
+        }
+        .review-content {
             color: #666;
-            line-height: 1.6;
-            text-align: justify;
+        }
+        .rating {
+            color: gold;
+            font-size: 1.2em;
         }
         footer {
             text-align: center;
@@ -50,25 +87,70 @@
 </head>
 <body>
     <header>
-        <h1>Apresentação do Produto</h1>
-        <p>Design, qualidade e inovação.</p>
+        <h1>Produto Premium</h1>
+        <p>Inovação, qualidade e performance.</p>
     </header>
 
     <div class="container">
-        <img src="https://via.placeholder.com/800x400" alt="Imagem do Produto" class="product-image">
-        <h1>Produto Premium</h1>
-        <p>
-            Este produto foi desenvolvido com atenção aos mínimos detalhes, utilizando os melhores materiais disponíveis 
-            e tecnologia de ponta. Ideal para quem busca qualidade e estilo em um único item. 
-        </p>
-        <p>
-            A combinação de design moderno e funcionalidade o torna perfeito para diversas ocasiões. Experimente o equilíbrio 
-            entre inovação e desempenho, com um toque de sofisticação.
-        </p>
+        <!-- Vídeo do produto -->
+        <div class="product-video">
+            <h2>Veja o Produto em Ação</h2>
+            <video width="100%" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Seu navegador não suporta a reprodução de vídeos.
+            </video>
+        </div>
+
+        <!-- Imagens do produto -->
+        <div class="product-images">
+            <img src="https://via.placeholder.com/300" alt="Imagem 1 do Produto">
+            <img src="https://via.placeholder.com/300" alt="Imagem 2 do Produto">
+            <img src="https://via.placeholder.com/300" alt="Imagem 3 do Produto">
+        </div>
+
+        <!-- Descrição do produto -->
+        <div class="product-description">
+            <h2>Descrição do Produto</h2>
+            <p>
+                Este é o Produto Premium, projetado com tecnologia de ponta e materiais de alta qualidade.
+                Perfeito para quem busca o equilíbrio entre design, funcionalidade e durabilidade. 
+                Um item indispensável para transformar sua rotina.
+            </p>
+            <a href="#detalhes" class="btn">Saber Mais</a>
+        </div>
+
+        <!-- Avaliações -->
+        <div class="reviews">
+            <h2>Avaliações de Clientes</h2>
+
+            <div class="review-item">
+                <span class="rating">★★★★★</span>
+                <p class="review-author">Maria Silva</p>
+                <p class="review-content">
+                    "Este produto superou minhas expectativas! Excelente qualidade e design impecável."
+                </p>
+            </div>
+
+            <div class="review-item">
+                <span class="rating">★★★★☆</span>
+                <p class="review-author">Carlos Andrade</p>
+                <p class="review-content">
+                    "Ótimo produto! Apenas gostaria de mais opções de cores."
+                </p>
+            </div>
+
+            <div class="review-item">
+                <span class="rating">★★★★★</span>
+                <p class="review-author">Juliana Freitas</p>
+                <p class="review-content">
+                    "Simplesmente incrível. Recomendo a todos!"
+                </p>
+            </div>
+        </div>
     </div>
 
     <footer>
-        <p>Apresentação do Produto &copy; 2025 - Todos os direitos reservados.</p>
+        <p>Produto Premium &copy; 2025 - Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
