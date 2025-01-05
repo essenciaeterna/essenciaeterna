@@ -2,24 +2,14 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Página do Produto Essência Eterna">
-    <title>Essência Eterna</title>
-
-    <!-- Favicons -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="manifest" href="site.webmanifest">
-
-    <!-- Estilo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação do Produto</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f9f9f9;
+            background-color: #f9f9f9;
         }
         header {
             background-color: #4CAF50;
@@ -29,11 +19,11 @@
         }
         .container {
             padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
             border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         .product-image {
             width: 100%;
@@ -42,66 +32,43 @@
         }
         h1 {
             color: #333;
+            text-align: center;
         }
         p {
-            line-height: 1.6;
             color: #666;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px 0;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .btn:hover {
-            background-color: #45a049;
+            line-height: 1.6;
+            text-align: justify;
         }
         footer {
             text-align: center;
             padding: 10px 0;
-            background: #f1f1f1;
+            background-color: #4CAF50;
+            color: white;
             margin-top: 20px;
-            color: #888;
-        }
-
-        /* Responsividade */
-        @media (max-width: 768px) {
-            .container {
-                padding: 10px;
-                max-width: 100%;
-                box-shadow: none;
-                border-radius: 0;
-            }
-            header {
-                padding: 15px 0;
-            }
-            .btn {
-                padding: 8px 16px;
-            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Essência Eterna</h1>
-        <p>A essência que transforma o seu dia!</p>
+        <h1>Apresentação do Produto</h1>
+        <p>Design, qualidade e inovação.</p>
     </header>
 
     <div class="container">
         <img src="https://via.placeholder.com/800x400" alt="Imagem do Produto" class="product-image">
-        <h1>Produto Incrível</h1>
+        <h1>Produto Premium</h1>
         <p>
-            Este produto foi criado especialmente para transformar sua vida. Com ingredientes de alta qualidade 
-            e uma fórmula inovadora, ele oferece resultados incríveis. Escolha Essência Eterna para um novo começo.
+            Este produto foi desenvolvido com atenção aos mínimos detalhes, utilizando os melhores materiais disponíveis 
+            e tecnologia de ponta. Ideal para quem busca qualidade e estilo em um único item. 
         </p>
-        <a href="#comprar" class="btn">Comprar Agora</a>
+        <p>
+            A combinação de design moderno e funcionalidade o torna perfeito para diversas ocasiões. Experimente o equilíbrio 
+            entre inovação e desempenho, com um toque de sofisticação.
+        </p>
     </div>
 
     <footer>
-        <p>Essência Eterna &copy; 2025 - Todos os direitos reservados</p>
+        <p>Apresentação do Produto &copy; 2025 - Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
